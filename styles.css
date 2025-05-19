@@ -1,0 +1,138 @@
+/* Margins + topbar */
+
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 65px;
+    background-color: #333;
+    color: white;
+    padding: 2px 20px;         /* Less padding = higher content */
+    text-align: center;
+    font-size: 13px;
+    line-height: 3px;         /* Minimal space between lines */
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+body {
+    margin-top: 70px;
+    margin-left: 270px;
+}
+
+/* Sidebar looks */
+
+.sidebar {
+    position: fixed;
+    top: 45px; /* Below the topbar */
+    left: 0;
+    width: 250px; /* Width of the sidebar */
+    height: calc(100% - 65px);
+    background-color: #f4f4f4;
+    border-right: 1px solid #ccc;
+    padding: 15px;  /* Slightly less padding */
+    box-sizing: border-box;
+    overflow-y: auto;
+    z-index: 999;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 12px; /* Reduced space between each item */
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    background-color: #eaeaea;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #d1d1d1;
+}
+
+
+/* General looks of the website */
+
+.main-content {
+    padding: 30px;      /* Add some padding around the content */
+    background-color: #f9f9f9; /* Light background for contrast */
+    color: #333;        /* Dark text for readability */
+    font-family: Arial, sans-serif; /* Clean, modern font */
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px; /* Spacing between header and content */
+    font-weight: 600;
+    border-bottom: 2px solid #ddd; /* Subtle border under the header */
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555; /* Softer text color for paragraphs */
+}
+
+ul {
+    margin-left: 20px; /* Indentation for list items */
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Boxes for Content Sections (like each topic) */
+.section-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px;
+    margin-bottom: 30px; /* Space between sections */
+    transition: box-shadow 0.3s;
+}
+
+.section-box:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Hover effect */
+}
+
+/* Button Styles */
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.different {
+    color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
