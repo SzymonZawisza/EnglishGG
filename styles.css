@@ -1,4 +1,4 @@
-/* Margins + topbar */
+/*English Grammar Guide, Zaprogramowana na potrzebę projektu stypendialnego przez ucznia SLO w Żarach Szymona Zawiszę - Jest on właścicielem i twórcą tego kodu oraz domeny i strony internetowej, englishgg.szymonzawisza.pl*/
 
 .topbar {
     position: fixed;
@@ -8,11 +8,11 @@
     height: 65px;
     background-color: #333;
     color: white;
-    padding: 2px 20px;         /* Less padding = higher content */
+    padding: 2px 20px;        
     text-align: center;
     font-size: 13px;
-    line-height: 3px;         /* Minimal space between lines */
-    z-index: 1000;
+    line-height: 3px;     
+    z-index: 1000;  
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     overflow: hidden;
     white-space: nowrap;
@@ -23,20 +23,21 @@ body {
     margin-left: 270px;
 }
 
-/* Sidebar looks */
+
 
 .sidebar {
     position: fixed;
-    top: 45px; /* Below the topbar */
+    top: 45px; 
     left: 0;
-    width: 250px; /* Width of the sidebar */
+    width: 250px; 
     height: calc(100% - 65px);
     background-color: #f4f4f4;
     border-right: 1px solid #ccc;
-    padding: 15px;  /* Slightly less padding */
+    padding: 15px;  
     box-sizing: border-box;
     overflow-y: auto;
     z-index: 999;
+    text-align: center;
 }
 
 .sidebar ul {
@@ -46,7 +47,7 @@ body {
 }
 
 .sidebar li {
-    margin-bottom: 12px; /* Reduced space between each item */
+    margin-bottom: 12px; 
 }
 
 .sidebar a {
@@ -65,22 +66,22 @@ body {
 }
 
 
-/* General looks of the website */
+
 
 .main-content {
-    padding: 30px;      /* Add some padding around the content */
-    background-color: #f9f9f9; /* Light background for contrast */
-    color: #333;        /* Dark text for readability */
-    font-family: Arial, sans-serif; /* Clean, modern font */
+    padding: 30px;     
+    background-color: #f9f9f9; 
+    color: #333;        
+    font-family: Arial, sans-serif; 
     box-sizing: border-box;
 }
 
 h2 {
     font-size: 24px;
     color: #333;
-    margin-bottom: 15px; /* Spacing between header and content */
+    margin-bottom: 15px; 
     font-weight: 600;
-    border-bottom: 2px solid #ddd; /* Subtle border under the header */
+    border-bottom: 2px solid #ddd; 
     padding-bottom: 5px;
 }
 
@@ -88,11 +89,11 @@ p {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 20px;
-    color: #555; /* Softer text color for paragraphs */
+    color: #555; 
 }
 
 ul {
-    margin-left: 20px; /* Indentation for list items */
+    margin-left: 20px; 
     margin-bottom: 20px;
 }
 
@@ -100,21 +101,21 @@ ul li {
     margin-bottom: 10px;
 }
 
-/* Boxes for Content Sections (like each topic) */
+
 .section-box {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
     padding: 20px;
-    margin-bottom: 30px; /* Space between sections */
+    margin-bottom: 30px; 
     transition: box-shadow 0.3s;
 }
 
 .section-box:hover {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Hover effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
-/* Button Styles */
+
 button {
     background-color: #333;
     color: white;
